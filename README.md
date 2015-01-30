@@ -1,4 +1,4 @@
-# Facebook's css-layout for Titanium
+# Facebook's [css-layout](https://github.com/facebook/css-layout) for Titanium
 
 Exploring how it could be used to have a more iOS-autolayout-like layout system on Titanium.
 
@@ -15,5 +15,5 @@ Idealy this would replace the existing layout system. Whenever a view is added/c
 
 Other ideas:
 
-* The Alloy view compiler could run the TSS/inline properties of a full view hierarchy through `computeLayout` before using them in the `create*()` statements.
-* If Titanium would allow to batch-create views like [Carbon](http://carbon.appersonlabs.com/api-documentation/) promised it could use the Obj-C/JAVA versions of CSS-layout on the native side, for both new and updated views.
+* The Alloy view compiler could run the TSS/inline properties of a full view hierarchy through `computeLayout` before using them in the `create*()` statements. The advantage would be that the changes are JS-only, but that would come at a price.
+* React (Native)'s way to batch the creation of UI is very similar to what [Carbon](http://carbon.appersonlabs.com/api-documentation/) promised.
