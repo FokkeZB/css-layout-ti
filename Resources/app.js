@@ -29,7 +29,6 @@ var template = {
       properties: {
         marginLeft: 10,
         marginRight: 10,
-        paddingLeft: 1
         height: 20,
 
         text: 'Hello World'
