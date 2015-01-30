@@ -2,6 +2,8 @@
 
 Exploring how it could be used to have a more iOS-autolayout-like layout system on Titanium.
 
+Related JIRA ticket: [TIMOB-18479](https://jira.appcelerator.org/browse/TIMOB-18479)
+
 ## How I made it work for Titanim via JS
 
 1. Put [Layout.js](https://github.com/facebook/css-layout/blob/master/src/Layout.js) in [Resources/Layout.js](Resources/Layout.js)
