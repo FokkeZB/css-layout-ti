@@ -16,4 +16,4 @@ Idealy this would replace the existing layout system. Whenever a view is added/c
 Other ideas:
 
 * The Alloy view compiler could run the TSS/inline properties of a full view hierarchy through `computeLayout` before using them in the `create*()` statements. The advantage would be that the changes are JS-only, but that would come at a price.
-* React (Native)'s way to batch the creation of UI is very similar to what [Carbon](http://carbon.appersonlabs.com/api-documentation/) promised.
+* React (Native)'s way to batch the creation of UI is very similar to how we now use templates for ListView and to what [Carbon](http://carbon.appersonlabs.com/api-documentation/) did as well. Would be nice to have something like `Ti.UI.create(<hierarchy>)`.
